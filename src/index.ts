@@ -4,8 +4,13 @@ a = 'string'
 var city = 'porto alegre'
 city = 19
 
-
-function Soma(E:number,F: number){
+//tipe tipagem explicita!!
+function soma(E:number,F: number){
     return E+F
 }
-console.log(Soma)
+const receive = soma(10,20)
+
+
+const readFile = async() =>{
+    return 10
+}
