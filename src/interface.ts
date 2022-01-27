@@ -12,10 +12,12 @@ const PontoA : Point = {x:1, y:0}
 
 interface Pessoa {
     name: string,
-    [key:string]: any
+    [key:string]: string | number ,
+    sexo: 'm' | 'f'
 }
 
 const felipe : Pessoa ={
     name: 'felipe',
-    idade:'20'
+    idade:'20',
+    sexo: 'f'
 }
