@@ -13,11 +13,15 @@ const PontoA : Point = {x:1, y:0}
 interface Pessoa {
     name: string,
     [key:string]: string | number ,
-    sexo: 'm' | 'f'
+    sexo?: 'm' | 'f'
 }
-
+// practice more about this!!
 const felipe : Pessoa ={
     name: 'felipe',
-    idade:'20',
-    sexo: 'f'
+    idade:'20'
 }
+
+function ola(pessoa: Pessoa){
+    console.log('ola', pessoa.name)
+}
+ola({name:'ola programmer', sexo:'f'})
