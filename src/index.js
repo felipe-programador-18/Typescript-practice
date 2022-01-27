@@ -38,6 +38,7 @@ var _this = this;
 // this called typage implicita!!
 var a = 10;
 a = 'string';
+//this called typace implicita!!
 var city = 'porto alegre';
 city = 19;
 //tipe tipagem explicita!!
