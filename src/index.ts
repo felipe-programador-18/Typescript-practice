@@ -1,7 +1,7 @@
 // this called typage implicita!!
 let a  = 10
 a = 'string'
-
+//this called typace implicita!!
 var city = 'porto alegre'
 city = 19
 
