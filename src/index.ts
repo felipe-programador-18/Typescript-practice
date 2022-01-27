@@ -1,3 +1,4 @@
+// this called typage implicita!!
 let a  = 10
 a = 'string'
 
