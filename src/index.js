@@ -35,6 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 var _this = this;
+// this called typage implicita!!
 var a = 10;
 a = 'string';
 var city = 'porto alegre';
