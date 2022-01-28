@@ -35,3 +35,15 @@ function saudacao(pessoa: Pessoa){
     console.log('hi teach', pessoa.name)
 }
 saudacao({name:'francisco', sexo: 'm'})
+
+
+// this called way implicita!! 
+//because is referred number been string!!
+let kinda = 'more issues for me'
+kinda = 10
+
+
+// this way called explicito 
+//i have show of one way better to built production
+let Other: string = 'Felipe'
+Other =19
