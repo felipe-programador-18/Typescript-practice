@@ -27,9 +27,13 @@ kinda = 10;
 //i have show of one way better to built production
 var Other = 'Felipe';
 Other = 19;
-var contratado = {
+var empregado = {
     adress: 'avenida circular',
     city: 'porto alegre',
     zipcode: 921,
     complementer: 'apartamento'
 };
+function Greets(humano) {
+    console.log('teste interface here', humano.adress);
+}
+Greets({ adress: 'manoel bandeira' });

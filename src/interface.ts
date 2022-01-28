@@ -60,9 +60,15 @@ interface Cidadao {
     complementer?: 'casa' |'apartamento' 
 }
 
-const contratado : Cidadao = {
+const empregado : Cidadao = {
     adress: 'avenida circular',
     city: 'porto alegre',
     zipcode:921,
     complementer:'apartamento' ,
 }
+
+function Greets (humano: Cidadao){
+    console.log('teste interface here', humano.adress)
+}
+
+Greets({adress:'manoel bandeira'})
