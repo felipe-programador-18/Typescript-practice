@@ -8,13 +8,14 @@ interface Point {
     z: number;
 }
 
+// this mode explicito!!
 const PontoA : Point = {x:1, y:0}
+// create new interface
 interface Pessoa {
     name: string,
     [key:string]: string | number ,
     sexo?: 'm' | 'f'
 }
-
 // practice more about this!!
 //explicito
 const felipe : Pessoa ={
@@ -47,3 +48,21 @@ kinda = 10
 //i have show of one way better to built production
 let Other: string = 'Felipe'
 Other =19
+
+
+
+//make more about interface
+
+interface Cidadao {
+    adress: 'string',
+    city: 'string',
+    zipcode: number,
+    complementer?: 'casa' |'apartamento' 
+}
+
+const empregado : Cidadao = {
+    adress: 'avenida circular',
+    city: 'porto alegre',
+    zipcode:921,
+    complementer:'apartamento' ,
+}
