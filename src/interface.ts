@@ -18,7 +18,7 @@ interface Pessoa {
 }
 // practice more about this!!
 //explicito
-const felipe : Pessoa ={
+const contratado : Pessoa ={
     name: 'felipe',
     idade:'20'
 }
@@ -54,8 +54,8 @@ Other =19
 //make more about interface
 
 interface Cidadao {
-    adress: 'string',
-    city: 'string',
+    adress: string,
+    city: string,
     zipcode: number,
     complementer?: 'casa' |'apartamento' 
 }
