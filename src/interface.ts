@@ -60,7 +60,7 @@ interface Cidadao {
     complementer?: 'casa' |'apartamento' 
 }
 
-const empregado : Cidadao = {
+const contratado : Cidadao = {
     adress: 'avenida circular',
     city: 'porto alegre',
     zipcode:921,
