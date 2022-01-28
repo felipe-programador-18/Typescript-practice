@@ -2,7 +2,7 @@
 var PontoA = { x: 1, y: 0 };
 // practice more about this!!
 //explicito
-var felipe = {
+var contratado = {
     name: 'felipe',
     idade: '20'
 };
