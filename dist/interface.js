@@ -37,3 +37,10 @@ function Greets(humano) {
     console.log('teste interface here', humano.adress);
 }
 Greets({ adress: 'manoel bandeira' });
+//remember way inplicite
+//theorical he called and seeing error
+var employ = 'felipe';
+employ = 'another employing';
+//this is mode explicito when write and wrote code i have use better ways explicito
+var a = 'martins';
+a = 10;
