@@ -18,3 +18,11 @@ function saudacao(pessoa) {
     console.log('hi teach', pessoa.name);
 }
 saudacao({ name: 'francisco', sexo: 'm' });
+// this called way implicita!! 
+//because is referred number been string!!
+var kinda = 'more issues for me';
+kinda = 10;
+// this way called explicito 
+//i have show of one way better to built production
+var Other = 'Felipe';
+Other = 19;
