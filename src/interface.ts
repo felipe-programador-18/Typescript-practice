@@ -72,3 +72,13 @@ function Greets (humano: Cidadao){
 }
 
 Greets({adress:'manoel bandeira'})
+
+
+//remember way inplicite
+//theorical he called and seeing error
+var employ = 'felipe'
+employ = 'another employing'
+
+//this is mode explicito when write and wrote code i have use better ways explicito
+let a : string = 'martins' 
+a = 10
