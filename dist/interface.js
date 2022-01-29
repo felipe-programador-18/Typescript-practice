@@ -46,6 +46,7 @@ var a = 'martins';
 a = 10;
 //create and work with class
 // i getting implement interface insede out class, but i have called all required
+//guidance object
 var Funcionario = /** @class */ (function () {
     function Funcionario(nome) {
         this.nome = nome;
