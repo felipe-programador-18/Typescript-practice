@@ -44,3 +44,15 @@ employ = 'another employing';
 //this is mode explicito when write and wrote code i have use better ways explicito
 var a = 'martins';
 a = 10;
+//create and work with class
+// i getting implement interface insede out class, but i have called all required
+var Funcionario = /** @class */ (function () {
+    function Funcionario(nome) {
+        this.nome = nome;
+    }
+    return Funcionario;
+}());
+//remerber is called explicitament
+var func1;
+func1 = new Funcionario('Martins programmer');
+var func2 = new Funcionario('Felipe Martins');
