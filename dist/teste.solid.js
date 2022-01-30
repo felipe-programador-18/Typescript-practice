@@ -19,8 +19,9 @@ var Organizesale = /** @class */ (function () {
     return Organizesale;
 }());
 var Salefinal = /** @class */ (function () {
-    function Salefinal() {
-        return this;
+    function Salefinal(value, print) {
+        this.value = this.value,
+            this.print = print;
     }
     return Salefinal;
 }());
@@ -28,3 +29,5 @@ var caught;
 caught = new Libraries('introducao a python', 32321312, 2, 10);
 var survey;
 survey = new Organizesale('introducao a python', 'introducao a python');
+var together;
+together = new Salefinal(100, 'show invoice');
