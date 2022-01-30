@@ -13,7 +13,7 @@ interface Book {
     }
     
     interface Finnalysale {
-    search:string ;
+    value:number ;
     print: string;
     }
 
@@ -45,9 +45,13 @@ class Organizesale implements SALE {
     }
 }
 
-class Salefinal {
-    constructor(){
-        return this
+class Salefinal implements Finnalysale {
+    value:number ;
+    print: string;
+    
+    constructor(value: number, print: string){
+         this.value = this.value,
+         this.print = print
     }
 }
 
@@ -58,3 +62,6 @@ caught = new Libraries('introducao a python',32321312 ,2,10);
 
 let survey: Organizesale
 survey = new Organizesale('introducao a python','introducao a python');
+
+let together : Salefinal
+together = new Salefinal(100, 'show invoice')
