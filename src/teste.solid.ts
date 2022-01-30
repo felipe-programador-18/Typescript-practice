@@ -1,37 +1,47 @@
 // need create interface to together this class
 
 interface Book {
-nomebook: string,
-ibm: number,
-quantidade: number,
-Somalivro: number
-}
+    nomebook: string;
+    ibm: number;
+    quantidade: number;
+    sumbook: number;
+    }
+    
+    interface SALE {
+      pesquisa: string;
+      update: string;
+    }
+    
+    interface Finnalysale {
+    search:string ;
+    print: string;
+    }
 
-interface SALE {
-  pesquisa: string,
-  [key:string]: string | number,
-  update: string
-}
+// need create interface to together this clas
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
 
-interface Finnalysale {
-search:string ,
-print: string
-}
+class Libraries implements Book {  
+    nomebook: string;
+    ibm: number;
+    quantidade: number;
+    sumbook: number ;
 
-
-
-
-
-
-class Libraries {
-    constructor(){
-     return this
+    constructor(nomebook:string, ibm: number, quantidade: number, sumbook: number){
+       this.nomebook = nomebook ,
+       this.ibm = ibm,
+       this.quantidade = quantidade,
+       this.sumbook = sumbook
     }
 }
 
-class Organizesale {
-    constructor(){
-        return this
+class Organizesale implements SALE {
+    pesquisa: string ;
+    update: string ;
+
+    constructor(pesquisa: string, update: string){
+         this.pesquisa = pesquisa ,
+         this.update = update
     }
 }
 
@@ -40,3 +50,11 @@ class Salefinal {
         return this
     }
 }
+
+
+
+let caught: Libraries 
+caught = new Libraries('introducao a python',32321312 ,2,10);
+
+let survey: Organizesale
+survey = new Organizesale('introducao a python','introducao a python');
