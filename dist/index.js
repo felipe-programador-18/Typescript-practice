@@ -46,6 +46,11 @@ function soma(E, F) {
     return E + F;
 }
 var receive = soma(10, 20);
+// function explict!!
+function Append(G, H) {
+    return G * H;
+}
+var caught = Append(40, 50);
 var readFile = function () { return __awaiter(_this, void 0, void 0, function () {
     return __generator(this, function (_a) {
         return [2 /*return*/, 10];

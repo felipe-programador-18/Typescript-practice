@@ -11,6 +11,13 @@ function soma(E:number,F: number){
 }
 const receive = soma(10,20)
 
+// function explict!!
+function Append(G:number ,H: number){
+    return G*H
+}
+const caught =  Append(40,50)
+
+
 
 const readFile = async() =>{
     return 10
