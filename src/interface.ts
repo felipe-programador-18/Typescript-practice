@@ -48,7 +48,7 @@ kinda = 10
 //i have show of one way better to built production
 let Other: string = 'Felipe'
 Other =19
-
+//contains language  explict but have erros!!
 
 
 //make more about interface
