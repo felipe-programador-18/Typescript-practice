@@ -17,6 +17,13 @@ interface Book {
     print: string;
     }
 
+
+
+    interface VIRTUALYBOOK{
+        nomebook:string;
+        pdfonline: object;
+        valueversion: number;  
+      }
 // need create interface to together this clas
 ///////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////
@@ -26,7 +33,6 @@ class Libraries implements Book {
     ibm: number;
     quantidade: number;
     sumbook: number ;
-
     constructor(nomebook:string, ibm: number, quantidade: number, sumbook: number){
        this.nomebook = nomebook ,
        this.ibm = ibm,
@@ -65,3 +71,15 @@ survey = new Organizesale('introducao a python','introducao a python');
 
 let together : Salefinal
 together = new Salefinal(100, 'show invoice')
+
+
+
+
+class Employees{
+    constructor(nome:string){
+      this.nome = nome
+    }
+    nome:string
+}
+
+let func1: Employees = new Employees('FELIPE MARTINS')
