@@ -31,3 +31,10 @@ var survey;
 survey = new Organizesale('introducao a python', 'introducao a python');
 var together;
 together = new Salefinal(100, 'show invoice');
+var Employees = /** @class */ (function () {
+    function Employees(nome) {
+        this.nome = nome;
+    }
+    return Employees;
+}());
+var func1 = new Employees('FELIPE MARTINS');
