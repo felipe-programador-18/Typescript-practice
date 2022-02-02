@@ -25,17 +25,12 @@ class Pricebook implements Notafiscal {
 class Finnaly implements Notafiscal {
     valuebook:number;
     namebook: string;
-    
+
     constructor(bookone: number){
         this.bookone = bookone 
     }
     bookone:number;
 }
-
-
-
-
-
 
 
 let fun1: Libraries = new Libraries('Learning Mysql')
