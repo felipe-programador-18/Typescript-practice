@@ -1,22 +1,20 @@
+"use strict";
 //Guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
-var Libraries = /** @class */ (function () {
-    function Libraries(nomebook) {
+class Libraries {
+    constructor(nomebook) {
         this.nomebook = nomebook;
     }
-    return Libraries;
-}());
-var Pricebook = /** @class */ (function () {
-    function Pricebook(pricebook) {
+}
+class Pricebook {
+    constructor(pricebook) {
         this.pricebook = pricebook;
     }
-    return Pricebook;
-}());
-var Finnaly = /** @class */ (function () {
-    function Finnaly(bookone) {
+}
+class Finnaly {
+    constructor(bookone) {
         this.bookone = bookone;
     }
-    return Finnaly;
-}());
-var fun1 = new Libraries('Learning Mysql');
-var prec = new Pricebook(99.90);
-var finasale = new Finnaly(99.90);
+}
+let fun1 = new Libraries('Learning Mysql');
+let prec = new Pricebook(99.90);
+let finasale = new Finnaly(99.90);

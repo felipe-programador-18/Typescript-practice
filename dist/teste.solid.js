@@ -1,40 +1,37 @@
+"use strict";
 // need create interface to together this class
 // need create interface to together this clas
 ///////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////
-var Libraries = /** @class */ (function () {
-    function Libraries(nomebook, ibm, quantidade, sumbook) {
+class Libraries {
+    constructor(nomebook, ibm, quantidade, sumbook) {
         this.nomebook = nomebook,
             this.ibm = ibm,
             this.quantidade = quantidade,
             this.sumbook = sumbook;
     }
-    return Libraries;
-}());
-var Organizesale = /** @class */ (function () {
-    function Organizesale(pesquisa, update) {
+}
+class Organizesale {
+    constructor(pesquisa, update) {
         this.pesquisa = pesquisa,
             this.update = update;
     }
-    return Organizesale;
-}());
-var Salefinal = /** @class */ (function () {
-    function Salefinal(value, print) {
+}
+class Salefinal {
+    constructor(value, print) {
         this.value = this.value,
             this.print = print;
     }
-    return Salefinal;
-}());
-var caught;
+}
+let caught;
 caught = new Libraries('introducao a python', 32321312, 2, 10);
-var survey;
+let survey;
 survey = new Organizesale('introducao a python', 'introducao a python');
-var together;
+let together;
 together = new Salefinal(100, 'show invoice');
-var Employees = /** @class */ (function () {
-    function Employees(nome) {
+class Employees {
+    constructor(nome) {
         this.nome = nome;
     }
-    return Employees;
-}());
-var func1 = new Employees('FELIPE MARTINS');
+}
+let func1 = new Employees('FELIPE MARTINS');
