@@ -1,5 +1,5 @@
 //very interesting express it works inside typescript!!
-import * as Express from 'express'
+import Express from 'express'
 
 const app: Express.Application = Express()
 
@@ -9,6 +9,6 @@ app.get('/', (req:Express.Request , res: Express.Response) =>{
 })
 
 
-app.listen(8080, err => {
-    console.log('running')
+app.listen(8080, () => {
+    console.log('running programing')
 })
