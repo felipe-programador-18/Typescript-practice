@@ -32,3 +32,18 @@ interface Boss {
 }
 
 const data: Boss = { him:'Felipe programmer',age:40, gender:'m', email:'machadofelipe2016@outlook.com'}
+
+class Companies implements Boss{
+    him: string
+    age:number
+    gender?:'m' | 'f'
+
+    constructor( him: string, age:number , gender?:'m'| 'f'){
+      this.him = him;
+      this.age = age ;
+      this.gender = gender;
+    
+    }
+}
+
+let Togemore : Companies = new Companies ('martins',32,'m')
