@@ -10,5 +10,5 @@ app.get('/', (req:Express.Request , res: Express.Response) =>{
 
 
 app.listen(8080, () => {
-    console.log('running programing')
+    console.log('running new versions')
 })
