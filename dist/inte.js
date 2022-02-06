@@ -8,3 +8,12 @@ var Structure = /** @class */ (function () {
 }());
 var Tooth = new Structure(1203);
 var data = { him: 'Felipe programmer', age: 40, gender: 'm', email: 'machadofelipe2016@outlook.com' };
+var Companies = /** @class */ (function () {
+    function Companies(him, age, gender) {
+        this.him = him;
+        this.age = age;
+        this.gender = gender;
+    }
+    return Companies;
+}());
+var Togemore = new Companies('martins', 32, 'm');
