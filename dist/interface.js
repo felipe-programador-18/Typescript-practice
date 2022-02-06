@@ -49,8 +49,8 @@ a = 10;
 // i getting implement interface insede out class, but i have called all required
 //guidance object
 class Funcionario {
-    constructor(nome) {
-        this.nome = nome;
+    constructor(name) {
+        this.name = name;
     }
 }
 //remerber is called explicitament
