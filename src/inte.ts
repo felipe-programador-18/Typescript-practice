@@ -8,4 +8,8 @@ interface Point {
     y:number
 }
 
-const Union: Point =(x:10, y:20)
+interface PointA {
+    z: string
+}
+
+const Union: Point = {x:10, y:30,z:10}
