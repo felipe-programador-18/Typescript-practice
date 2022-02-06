@@ -7,3 +7,4 @@ var Structure = /** @class */ (function () {
     return Structure;
 }());
 var Tooth = new Structure(1203);
+var data = { him: 'Felipe programmer', age: 40, gender: 'm', email: 'machadofelipe2016@outlook.com' };

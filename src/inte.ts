@@ -31,3 +31,4 @@ interface Boss {
     email:string
 }
 
+const data: Boss = { him:'Felipe programmer',age:40, gender:'m', email:'machadofelipe2016@outlook.com'}
