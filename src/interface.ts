@@ -96,10 +96,9 @@ class Funcionario implements Pessoa {
     name: string ;
     [key:string]: string | number ;
     sexo?: 'm' | 'f' ;
-    constructor(nome:string ){
-        this.nome = nome
+    constructor(name:string ){
+        this.name = name
      }
-    nome: string ;
     
 }
 //remerber is called explicitament
