@@ -13,3 +13,21 @@ interface PointA {
 }
 
 const Union: Point = {x:10, y:30,z:10}
+
+class Structure {    
+    constructor(size: number){
+     this.size = size
+   }
+   size: number
+}
+
+let Tooth : Structure = new Structure(1203)
+
+
+interface Boss {
+    him: string,
+    age:number,
+    gender?:'m' | 'f',
+    email:string
+}
+
