@@ -1,2 +1,2 @@
 var assey = 10;
-var Union = function (x, y) { return ; };
+var Union = { x: 10, y: 30, z: 10 };
