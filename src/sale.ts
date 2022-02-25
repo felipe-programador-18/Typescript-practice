@@ -3,6 +3,9 @@
 var Bul  = 'string'
 Bul = 12
 
+var car = '4234234'
+car = 23
+
 // this way explicit
 let Fel : number = 12
 Fel = 123
