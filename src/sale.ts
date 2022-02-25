@@ -3,8 +3,8 @@
 var Bul  = 'string'
 Bul = 12
 
-var car = '4234234'
-car = 23
+var car : string = '4234234'
+car = 'I need learning more and more'
 
 // this way explicit
 let Fel : number = 12
