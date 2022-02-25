@@ -17,3 +17,10 @@ interface Mine {
 }
 
 const Captur : Mine = { cor:'red', core:12, coreone:'s'}
+
+interface Eight {
+    twice:string,
+    time: number
+}
+
+const twiceonce: Eight = {twice:'More here now', time:3213123}
