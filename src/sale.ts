@@ -24,3 +24,13 @@ interface Eight {
 }
 
 const twiceonce: Eight = {twice:'More here now', time:3213123}
+
+
+class Onome {
+    constructor(onme){
+        this.onme = onme
+    }
+    onme:string
+}
+
+const create: Onome = {onme:'Here this momento lot grateful for'}
