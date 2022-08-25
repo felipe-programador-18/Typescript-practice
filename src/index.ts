@@ -1,8 +1,8 @@
 // this called typage implicita!!
-let a  = 10
+let adding  = 10
 a = 'string'
 //this called typace implicita!!
-var city = 'porto alegre'
+var cities = 'porto alegre'
 city = 19
 
 //tipe tipagem explicita!!
@@ -15,7 +15,7 @@ const receive = soma(10,20)
 function Append(G:number ,H: number){
     return G*H
 }
-const caught =  Append(40,50)
+const caughtadd =  Append(40,50)
 
 
 
