@@ -36,11 +36,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var _this = this;
 // this called typage implicita!!
-var a = 10;
-a = 'string';
+var adding = 10;
 //this called typace implicita!!
-var city = 'porto alegre';
-city = 19;
+var cities = 'porto alegre';
 //tipe tipagem explicita!!
 function soma(E, F) {
     return E + F;
@@ -50,9 +48,17 @@ var receive = soma(10, 20);
 function Append(G, H) {
     return G * H;
 }
-var caught = Append(40, 50);
+var caughtadd = Append(40, 50);
 var readFile = function () { return __awaiter(_this, void 0, void 0, function () {
     return __generator(this, function (_a) {
         return [2 /*return*/, 10];
     });
 }); };
+var NameSubmit = function (names, nickname) {
+    return names + nickname;
+};
+var ReadName = NameSubmit("felipe", 'programmer');
+var NumberArry = [123, 323, 4, 545, 123, 4535, 234];
+var TestingMore = NumberArry.map(function (more) {
+    return more * 2;
+});
